@@ -1,0 +1,10 @@
+Para correr la aplicación en local:
+  Primero la base de datos:
+  En terminal: docker compose up
+  Ejecutar el perfil de local
+
+
+Si se hacen cambios en el docker compose hay que hacer docker compose down y up otra vez.
+
+Si se quieren eliminar todos los datos de la base de datos se hace docker compose down y luego docker volume ls,
+se busca el volume que se llame data o algo así y docker volume rm "nombre_del_volume". Después up otra vez.
