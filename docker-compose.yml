@@ -1,0 +1,15 @@
+services:
+
+  db:
+    image: mariadb
+    restart: always
+    environment:
+      MARIADB_ROOT_PASSWORD: example
+      MYSQL_DATABASE: fluorescent
+    volumes:
+      - data:/var/lib/mysql
+    ports:
+      - "3306:3306"
+
+volumes:
+  data:
