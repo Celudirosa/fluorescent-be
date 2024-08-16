@@ -1,10 +1,19 @@
-Para correr la aplicación en local:
-  Primero la base de datos:
-  En terminal: docker compose up
-  Ejecutar el perfil de local
+* ¿ Cómo correr la app en local ? *
+    Primero la base de datos, poner en la terminal: 'docker compose up' y ejecutar el perfil local.
 
+* ¿ Qué hacer si hay cambios en el archivo docker-compose.yml ? *
+    Si se hacen cambios en el docker compose hay que escribir en la terminal 'docker compose down'
+    y luego 'docker compose up' cada vez que se hagan cambios.
 
-Si se hacen cambios en el docker compose hay que hacer docker compose down y up otra vez.
+* ¿ Cómo eliminar todos los datos de la BBDD ?
+    Si se quieren eliminar todos los datos de la base de datos, en la terminal se pone:
+    'docker compose down' y luego: 'docker volume ls'.
+    Hay que buscar el volume que se llame "data" o algo similar.
+    Y poner: 'docker volume rm "nombre_del_volume"'. Después up otra vez.
 
-Si se quieren eliminar todos los datos de la base de datos se hace docker compose down y luego docker volume ls,
-se busca el volume que se llame data o algo así y docker volume rm "nombre_del_volume". Después up otra vez.
+* ¿ Cómo nombrar los changelogs ?
+    "V001_Create-users-table" (versión + nombre descriptivo).
+    La creación de la web será la versión "V001", si hay alguna modificación sobre esta misma antes de
+    que se lance se utilizará la nomenclatura "V001.1_Add-colum-in-users-table".
+    Luego cuando se vayan haciendo diferentes actualizaciones como por ejemplo añadir descuentos, se
+    utilizará la "V002" y así sucesivamente.

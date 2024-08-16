@@ -1,0 +1,11 @@
+15 de agosto 2024 :
+    - Creación del proyecto java + dependencias
+    - Creación de docker compose
+    - Añadir el perfil local + configuración
+    - Creación del primer changelog
+    - Creación de algunos archivos para la estructura del proyecto + sus respectivos tests
+
+16 de agosto 2024 :
+    - Diseño del diagrama de relaciones entre tablas
+    - Creación de la doc de diary y todo
+    - Actualización de la doc "howto"

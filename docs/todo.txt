@@ -1,0 +1,4 @@
+- Diagrama de relaciones
+- Crear el primer changelog V001
+- Comprobar que funciona el changelog
+- Estructura del proyecto
