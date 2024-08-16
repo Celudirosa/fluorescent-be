@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - includeAll:
+      path: liquibase/changelog/v1_0
+
+  # Add new versions here

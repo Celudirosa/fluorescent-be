@@ -1,4 +1,7 @@
-- Diagrama de relaciones
-- Crear el primer changelog V001
+Todo :
+- Crear el primer changelog "v1.0.1"
 - Comprobar que funciona el changelog
 - Estructura del proyecto
+
+Done :
+- Diagrama de relaciones

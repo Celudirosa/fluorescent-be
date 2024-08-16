@@ -1,6 +1,9 @@
 * ¿ Cómo correr la app en local ? *
     Primero la base de datos, poner en la terminal: 'docker compose up' y ejecutar el perfil local.
 
+* ¿ Cómo parar el docker en la terminal ?
+    En la terminal "ctrl + c".
+
 * ¿ Qué hacer si hay cambios en el archivo docker-compose.yml ? *
     Si se hacen cambios en el docker compose hay que escribir en la terminal 'docker compose down'
     y luego 'docker compose up' cada vez que se hagan cambios.
@@ -12,8 +15,9 @@
     Y poner: 'docker volume rm "nombre_del_volume"'. Después up otra vez.
 
 * ¿ Cómo nombrar los changelogs ?
-    "V001_Create-users-table" (versión + nombre descriptivo).
-    La creación de la web será la versión "V001", si hay alguna modificación sobre esta misma antes de
-    que se lance se utilizará la nomenclatura "V001.1_Add-colum-in-users-table".
+    "v1.0.1_create-users-table" (versión + nombre descriptivo).
+    La creación de la web será la versión "v1", si hay alguna modificación sobre esta misma antes de
+    que se lance se utilizará la nomenclatura "v1.0.2_add-colum-in-users-table".
     Luego cuando se vayan haciendo diferentes actualizaciones como por ejemplo añadir descuentos, se
-    utilizará la "V002" y así sucesivamente.
+    utilizará la "v1.1.0" y así sucesivamente.
+    Cuando se haga una actualización más grande de la app se pasará a la "v2.0.1".
