@@ -1,5 +1,5 @@
 databaseChangeLog:
-  - includeAll:
-      path: liquibase/changelog/v1_0
+  - include:
+      file: liquibase/changelog/versions/v1_0/v1.0.1_initial-structure.yaml
 
   # Add new versions here

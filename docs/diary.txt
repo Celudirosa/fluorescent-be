@@ -9,3 +9,8 @@
     - Diseño del diagrama de relaciones entre tablas
     - Creación de la doc de diary y todo
     - Actualización de la doc "howto"
+    - Creación de la initial structure de la BBDD
+
+6 de septiembre 2024 :
+    - Intento de cambio de nombre del FILENAME de la BDD
+    - Explicación arquitectura de Héctor
