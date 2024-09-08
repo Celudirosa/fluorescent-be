@@ -1,10 +1,12 @@
 Todo :
-    - Crear el primer changelog "v1.0.1"
-    - Comprobar que funciona el changelog
-    - Estructura del proyecto
+    - Entidad User
+    - Diseñar el login
 
 Nice to have :
     - Cambio de nombre de la columna FILENAME de liquibase
 
 Done :
     - Diagrama de relaciones
+    - Crear el primer changelog "v1.0.1"
+    - Comprobar que funciona el changelog
+    - Estructura del proyecto

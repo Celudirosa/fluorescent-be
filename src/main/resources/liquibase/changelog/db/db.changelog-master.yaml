@@ -2,4 +2,7 @@ databaseChangeLog:
   - include:
       file: liquibase/changelog/versions/v1_0/v1.0.1_initial-structure.yaml
 
+  - include:
+      file: liquibase/changelog/versions/v1_0/v1.0.2_update-users.yaml
+
   # Add new versions here

@@ -1,0 +1,13 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: celudirosa
+      changes:
+      - addColumn:
+          tableName: users
+          columns:
+            - column:
+                name: date_birth
+                type: date
+                constraints:
+                  nullable: false

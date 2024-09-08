@@ -14,3 +14,8 @@
 6 de septiembre 2024 :
     - Intento de cambio de nombre del FILENAME de la BDD
     - Explicación arquitectura de Héctor
+
+8 de septiembre 2024 :
+    - Creación de la rama users
+    - Creación de la entidad User
+    - Actualización de la tabla users en liquibase (v1.0.2)
