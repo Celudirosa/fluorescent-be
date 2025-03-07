@@ -1,13 +1,13 @@
-<mxfile host="drawio-plugin" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" modified="2024-09-06T17:35:17.158Z" etag="F5ntiLEa0fTSaJR7sswJ" version="22.1.22" type="embed">
+<mxfile host="drawio-plugin" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" modified="2025-03-07T21:20:28.042Z" etag="_iQ190koBCH0nkHAj3vY" version="22.1.22" type="embed">
   <diagram name="Página-1" id="l_04Ptg4ApyM4ccSp6kU">
-    <mxGraphModel dx="381" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="522" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="g6q2oZA1gRLXdf9-5JJ_-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="g6q2oZA1gRLXdf9-5JJ_-1" target="g6q2oZA1gRLXdf9-5JJ_-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g6q2oZA1gRLXdf9-5JJ_-1" value="users&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;id: uuid&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;name: text&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;surname: text&lt;/div&gt;&lt;/div&gt;&lt;div&gt;username: text&lt;/div&gt;&lt;div&gt;email: text&lt;br&gt;&lt;/div&gt;&lt;div&gt;password: text&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;rol: enum&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="g6q2oZA1gRLXdf9-5JJ_-1" value="users&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;id: uuid&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;name: text&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;surname: text&lt;/div&gt;&lt;/div&gt;&lt;div&gt;username: text&lt;/div&gt;&lt;div&gt;birthdate: date&lt;/div&gt;&lt;div&gt;email: text&lt;br&gt;&lt;/div&gt;&lt;div&gt;password: text&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;rol: enum&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="30" width="180" height="190" as="geometry" />
         </mxCell>
         <mxCell id="g6q2oZA1gRLXdf9-5JJ_-3" value="orders&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;id: uuid&lt;/div&gt;&lt;div&gt;date: date&lt;/div&gt;&lt;div&gt;user_id: uuid&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;direction_id: uuid&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
